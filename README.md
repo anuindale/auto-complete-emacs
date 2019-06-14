@@ -4,6 +4,7 @@ simple emacs lisp script for auto-completion
 Download myauto-complete.el and add the following lines to your init.el (aka .emacs) file:
 
 (load-file "/...folder.../myauto-complete.el") 
+
 (global-set-key (kbd "C-q") 'myauto-complete-mode)
 
 USAGE:
